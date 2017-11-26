@@ -27,6 +27,11 @@
         },
         "EFR32": {
             "stdio-baud-rate": 115200
+        },
+        "FAMILY_STM32": {
+            "stdio-baud-rate": 115200,
+            "default-serial-baud-rate": 115200,
+            "stdio-convert-newlines": true
         }
     }
 }
